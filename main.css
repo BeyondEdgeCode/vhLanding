@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 16px;
 }
 .logo-img {
     height: 315px;
@@ -42,10 +43,10 @@ body {
 .container {
     background-color: #fff;
     width: 980px;
-    height: 700px;
     border-radius: 16px;
-    padding: 32px;
+    padding: 52px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
